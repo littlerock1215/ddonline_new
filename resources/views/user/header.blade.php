@@ -391,7 +391,7 @@
             </ul>
           </li>
           <li>
-            <a class="" href="chart-chartjs.html">
+            <a class="" href="/admin/tender_documents">
                           <i class="icon_piechart"></i>
                           <span>標單專區</span>
 
@@ -413,11 +413,11 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
             <ul class="sub">
-              <li><a class="" href="profile.html">角色項目</a></li>
-              <li><a class="" href="login.html"><span>功能項目</span></a></li>
-              <li><a class="" href="contact.html"><span>操作項目</span></a></li>
-              <li><a class="" href="blank.html">功能與操作</a></li>
-              <li><a class="" href="404.html">角色權限管理</a></li>
+              <li><a class="" href="/admin/roles">角色項目</a></li>
+              <li><a class="" href="/admin/resource_items"><span>功能項目</span></a></li>
+              <li><a class="" href="/admin/action_items"><span>操作項目</span></a></li>
+              <li><a class="" href="/admin/permissions">功能與操作</a></li>
+              <li><a class="" href="/admin/role_permissions">角色權限管理</a></li>
             </ul>
           </li>
 

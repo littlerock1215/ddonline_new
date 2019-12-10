@@ -44,3 +44,11 @@ Route::get('/admin/loans/{event}','PlatformController@admin_loans_detail');
 
 Route::get('/admin/claims', 'PlatformController@admin_claims_index');
 Route::get('/admin/claim_repayments', 'PlatformController@admin_claim_repayments');
+
+
+// roles--------------------------------------------------------------------------------
+Route::get('/admin/roles', function(){ return view('roles.roles');});
+Route::get('/admin/resource_items', function(){ return view('roles.resource_items');});
+Route::get('/admin/action_items', function(){ return view('roles.action_items');});
+Route::get('/admin/permissions', function(){ return view('roles.permissions');});
+Route::get('/admin/role_permissions',function(){ return view('roles.role_permissions');});
