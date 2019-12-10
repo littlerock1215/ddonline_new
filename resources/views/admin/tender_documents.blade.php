@@ -7,7 +7,7 @@
 
 
 
-<div class="an-content-body">
+<div class="an-content-body" style="margin-left:180px;width:86%">
     <div class="row">
         <div class="an-body-topbar wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
 <div class="an-page-title">
