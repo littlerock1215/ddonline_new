@@ -256,8 +256,8 @@
 $('#customer').datatable({
     pageSize: 8,
     sort: [true, true, false],
-    filters: [true, false, 'select'],
-    filterText: 'Type to filter... ',
+    // filters: [true, false, 'select'],
+    // filterText: 'Type to filter... ',
     onChange: function(old_page, new_page){
       console.log('changed from ' + old_page + ' to ' + new_page);
     }
