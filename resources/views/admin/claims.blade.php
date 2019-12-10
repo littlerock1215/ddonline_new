@@ -2,11 +2,11 @@
 
 @section('admin_content')
 
-<link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+{{-- <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
 
-        <!-- datatables -->
+        
         <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/v/dt/jqc-1.12.3/dt-1.10.16/b-1.4.2/sl-1.2.3/datatables.min.css"/>
         <link href="//cdn.datatables.net/responsive/2.1.1/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css">
         <link href="//cdn.datatables.net/buttons/1.3.1/css/buttons.dataTables.min.css" rel="stylesheet" type="text/css">
@@ -16,15 +16,15 @@
 
         <link rel="shortcut icon" href="/images/favicon.ico">
 
-        <!-- datetimepicker -->
+        
         <link rel="stylesheet" media="all" href="/assets/jquery/jquery.datetimepicker-687fd1e22bd02562a9edbd430eca033e571a906b22f03dc62156165bd34a1f64.css" />
 
-        <!-- select2 -->
+        
         <link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.min.css" rel="stylesheet" type="text/css">
         <link href="//cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.min.css" rel="stylesheet" type="text/css">
 
-        <!-- qtip -->
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/qtip2/3.0.3/jquery.qtip.min.css">
+        
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/qtip2/3.0.3/jquery.qtip.min.css"> --}}
 
         <link rel="stylesheet" media="all" href="/assets/admin-a2d9679cd876b77306b69505b283d25f085563d38451d0785e8d72886a9fc0e1.css" />
         
@@ -32,6 +32,14 @@
 {{-- <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> --}}
 <script type="text/javascript" src="https://cdn.rawgit.com/Holt59/datatable/master/js/datatable.jquery.js"></script>
 <script type="text/javascript" src="https://cdn.rawgit.com/Holt59/datatable/master/js/datatable.js"></script>
+
+<script id="fr-fek">try{(function (k){localStorage.FEK=k;t=document.getElementById('fr-fek');t.parentNode.removeChild(t);})('QA-8pj1euawE2ln==')}catch(e){}</script>
+        <script id="fr-fek">try{(function (k){localStorage.FEK=k;t=document.getElementById('fr-fek');t.parentNode.removeChild(t);})('9wdlhnrsmkaD3kfgC6xz==')}catch(e){}</script>
+
+
+
+
+
 
 
 <div class="an-content-body" style="padding-left:210px">
@@ -650,15 +658,15 @@
     </script> 
 
 
-<script src="/assets/admin-909f25b62467f942627fef2834c7df441ac27d1a1a6c018e88671ba7b15302c7.js"></script>
+{{-- <script src="/assets/admin-909f25b62467f942627fef2834c7df441ac27d1a1a6c018e88671ba7b15302c7.js"></script>
 
-<!-- bootboxjs -->
+
 <script src="//cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js" type="text/javascript"></script>
 
-<!-- sweetalert -->
+
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-<!-- datatables -->
+
 <script type="text/javascript" src="//cdn.datatables.net/v/dt/jqc-1.12.3/dt-1.10.16/b-1.4.2/sl-1.2.3/datatables.min.js"></script>
 <script src="//cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js"></script>
 <script src="//cdn.datatables.net/buttons/1.3.1/js/dataTables.buttons.min.js"></script>
@@ -673,22 +681,22 @@
 <script src="/assets/jquery/dataTables.editor.min-8750989283fc48c6f75ac7adc11d69767d3d7547d9ef831857a5383c96e0328c.js"></script>
 <script src="/assets/jquery-fileupload/index-7776aa4b7a5cf355022658eb7e87aff47f65f1d68b20ee10c035aac122038800.js"></script>
 
-<!-- datetimepicker -->
+
 <script src="/assets/jquery/jquery.datetimepicker.full-78d292ac53a74a4f2a40611d4e329de1be284d6b15a0c024d093edb6ef08f785.js"></script>
 
-<!-- select2 -->
+
 <script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.min.js" type="text/javascript"></script>
 
-<!-- toastr -->
+
 <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js" type="text/javascript"></script>
 
-<!-- qtip -->
+
 <script src="//cdnjs.cloudflare.com/ajax/libs/qtip2/3.0.3/jquery.qtip.min.js"> </script>
 
 <script src="/assets/admin/claims_datatables-7289f392282d431a3be4d71cd3a537f9c25d793323d4ad58d71fc76059c2f800.js"></script>
 <script src="/assets/admin/claims_configure-ebb665e99711c4d1717222e48e9577c7f1346cc748c1cabae262662bc860dc1d.js"></script>
 <script src="/assets/admin/claims_update_data-030b258463e133dbcbd8d399a33420867569f5ea31464ae5d12ad4ce2b9be7b3.js"></script>
-
+ --}}
 
 
 
