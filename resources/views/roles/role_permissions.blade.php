@@ -68,47 +68,1448 @@
                   </tr>
                 </thead>
                 <tbody>
-                    <tr style="background-color: #688a7e;">
-                        <td>
+                    <tr>
+                        <td class="role_td_color">
                             智能媒合設定
                         </td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td class="role_td_color"></td>
+                        <td class="role_td_color"></td>
+                        <td class="role_td_color"></td>
+                        <td class="role_td_color"></td>
+                        <td class="role_td_color"></td>
+                        <td class="role_td_color"></td>
                     </tr>
 
                     <tr>
                         <td>
-                            g
+                            智能媒合設定(頁面)
                         </td>
                     
                         <td>
-                            g
+                            <input type="checkbox" name="">
                         </td>
 
                         <td>
-                            g
+                            <input type="checkbox" name="">
                         </td>
                     
                         <td>
-                        <input type="checkbox">
+                            <input type="checkbox" name="">
                         </td>
 
                         <td>
-                            <input type="checkbox">
+                            <input type="checkbox" name="">
                         </td>
 
                         <td>
-                            <input type="checkbox">
+                            <input type="checkbox" name="">
                         </td>
 
                         <td>
-                            <input type="checkbox">
+                            <input type="checkbox" name="">
                         </td>
                     </tr>
+
+
+                        <tr>
+                            <td class="role_td_color">
+                                會員專區
+                            </td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                會員專區(頁面)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                會員專區-會員禁用(button限制)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                會員專區-VIP 設定(button限制)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                會員專區 - 檢視資料
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                會員專區-VIP 設定(button顯示)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                會員專區-警示戶設定(button顯示)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                會員專區-警示戶設定(button限制)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                會員專區-會員禁用(button顯示)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                會員專區-編輯會員資料(button顯示)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                會員專區-銀行帳戶審核(button顯示)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                編輯會員-進入編輯頁面
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                編輯會員-更新會員資料
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                會員專區-駁回銀行帳戶申請
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                會員專區-銀行帳戶審核通過
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                會員專區 - 會員啟用
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                會員專區 - 會員審核駁回
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="role_td_color">
+                                編輯前台資料
+                            </td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                編輯前台資料(頁面)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                編輯前台資料 - 進入操作頁面
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                編輯前台資料 - 進入編輯頁面
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                編輯前台資料 - 更新資料
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                編輯前台資料 - 刪除一筆資料
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td class="role_td_color">
+                                媒合表現設定
+                            </td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                媒合表現設定(頁面)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                媒合表現設定 - 儲存資料
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="role_td_color">
+                                借款專區
+                            </td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                借款專區(頁面)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                借款專區 - 檢視內容頁面
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="role_td_color">
+                                管理債權
+                            </td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                管理債權(頁面)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                管理債權-年利率設定(button顯示)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                管理債權-債權匯入/新增、修改(button顯示)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                管理債權-債權募集/結標/設定/隱藏/刪除(button顯示)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                管理債權-檢視頁面
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                管理債權 - 前台隱藏債權
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="role_td_color">
+                                管理帳務
+                            </td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                管理帳務(頁面)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                管理帳務 - 新增頁面
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                管理帳務 - 建立新資料
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="role_td_color">
+                                標單專區
+                            </td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                標單專區(頁面)
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                標單專區 - 進入新增頁面
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                標單專區 - 建立一筆新資料
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                標單專區 - 匯入還款資料
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                標單專區 - 匯入繳款資料
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                標單專區 - 匯出未繳款標單
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="role_td_color">
+                                系統參數
+                            </td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                系統參數 - 系統參數資料更新
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="role_td_color">
+                                報表
+                            </td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                            <td class="role_td_color"></td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                報表專區 - 頁首
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                報表專區 - 會員專區
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+    
+                            <td>
+                                <input type="checkbox" name="">
+                            </td>
+                        </tr>
+
 
                 </tbody>
               </table>
