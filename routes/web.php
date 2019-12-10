@@ -42,6 +42,7 @@ Route::post('/admin/loans', 'PlatformController@admin_loans_choose');
 
 Route::get('/admin/loans/{event}','PlatformController@admin_loans_detail');
 
+// claims--------------------------------------------------------------------------------
 Route::get('/admin/claims', 'PlatformController@admin_claims_index');
 Route::get('/admin/claim_repayments', 'PlatformController@admin_claim_repayments');
 
@@ -52,3 +53,9 @@ Route::get('/admin/resource_items', function(){ return view('roles.resource_item
 Route::get('/admin/action_items', function(){ return view('roles.action_items');});
 Route::get('/admin/permissions', function(){ return view('roles.permissions');});
 Route::get('/admin/role_permissions',function(){ return view('roles.role_permissions');});
+
+// tender_documents--------------------------------------------------------------------------------
+Route::get('/admin/tender_documents', 'PlatformController@admin_tender_documents_index');
+
+// internal_letters--------------------------------------------------------------------------------
+Route::get('/admin/internal_letters', 'PlatformController@admin_internal_letters_index');

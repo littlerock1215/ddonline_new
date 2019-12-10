@@ -399,7 +399,7 @@
 
           </li>
           <li>
-            <a class="" href="chart-chartjs.html">
+            <a class="" href="/admin/internal_letters">
                           <i class="icon_piechart"></i>
                           <span>站內信</span>
 

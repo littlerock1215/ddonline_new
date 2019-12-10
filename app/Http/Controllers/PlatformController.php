@@ -153,4 +153,11 @@ class PlatformController extends Controller
         return Excel::download(new InvoicesExport(), 'invoice.xlsx');
     }
 
+    public function admin_tender_documents_index(){
+        return view('admin.tender_documents');
+    }
+
+    public function admin_internal_letters_index(){
+        return view('admin.internal_letters');
+    }
 }
