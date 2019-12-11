@@ -9908,3 +9908,15 @@ span.customSelect.changed {
    background-color: #688a7e!important;
    color: #f0f2f7!important;
 }
+
+
+.match_img{
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+.width_eighty{
+    width: 80%!important;
+    display: inline-block!important;
+}

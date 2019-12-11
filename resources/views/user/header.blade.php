@@ -365,7 +365,7 @@
                       </a>
           </li>
           <li>
-              <a class="" href="widgets.html">
+              <a class="" href="/admin/match_performances/new">
                             <i class="icon_genius"></i>
                             <span>媒合表現數據設定</span>
                         </a>
