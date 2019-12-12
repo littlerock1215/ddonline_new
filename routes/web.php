@@ -56,6 +56,7 @@ Route::get('/admin/role_permissions',function(){ return view('roles.role_permiss
 
 // tender_documents--------------------------------------------------------------------------------
 Route::get('/admin/tender_documents', 'PlatformController@admin_tender_documents_index');
+Route::get('/admin/tender_detail', 'PlatformController@admin_tender_detail_index');
 
 // internal_letters--------------------------------------------------------------------------------
 Route::get('/admin/internal_letters', 'PlatformController@admin_internal_letters_index');

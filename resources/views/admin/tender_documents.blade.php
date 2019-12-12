@@ -3,7 +3,7 @@
 @section('admin_content')
 
 <link rel="stylesheet" media="all" href="/assets/admin-a2d9679cd876b77306b69505b283d25f085563d38451d0785e8d72886a9fc0e1.css" />
-
+<link href="/NiceAdmin/css/style.css" rel="stylesheet">
 
 
 
@@ -196,31 +196,50 @@
         </a>     
     </div>
 <table id='tender_documents_datatable' class='table table-bordered table_breaking m-b-10'>
-<input type="hidden" name="tender_documents_force_repayment_early" id="js-force_repayment_early" value="true" />
-<thead>
-<tr>
-<th class='all'>債權憑證號</th>
-<th class='all'>得標人編號</th>
-<th class='all'>得標人</th>
-<th class='all'>得標序號</th>
-<th class='all'>物件編號</th>
-<th class='all'>狀態</th>
-<th class='all'>標單金額</th>
-<th class='all'>期數</th>
-<th class='all'>年化利率</th>
-<th class='all'>還款方式</th>
-<th class='all'>檢視</th>
-<th class='all'>繳款</th>
-<th class='all'>公司買</th>
-{{-- <th class='never'>存入日期</th>
-<th class='never'>得標人身份證</th>
-<th class='never'>繳款狀態</th>
-<th class='never'>起息日</th>
-<th class='never'>起息還款日</th> --}}
-</tr>
-</thead>
-<tbody>
-</tbody>
+    <input type="hidden" name="tender_documents_force_repayment_early" id="js-force_repayment_early" value="true" />
+    <thead>
+        <tr>
+            <th class='all'>債權憑證號</th>
+            <th class='all'>得標人編號</th>
+            <th class='all'>得標人</th>
+            <th class='all'>得標序號</th>
+            <th class='all'>物件編號</th>
+            <th class='all'>狀態</th>
+            <th class='all'>標單金額</th>
+            <th class='all'>期數</th>
+            <th class='all'>年化利率</th>
+            <th class='all'>還款方式</th>
+            <th class='all'>檢視</th>
+            <th class='all'>繳款</th>
+            <th class='all'>公司買</th>
+            {{-- <th class='never'>存入日期</th>
+            <th class='never'>得標人身份證</th>
+            <th class='never'>繳款狀態</th>
+            <th class='never'>起息日</th>
+            <th class='never'>起息還款日</th> --}}
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <a href="/admin/tender_detail" class="btn btn-default">
+                    <span class="glyphicon glyphicon-eye-open riew_content"></span>
+                </a>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
 </table>
 
 </div>
