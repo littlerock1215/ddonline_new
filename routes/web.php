@@ -63,3 +63,6 @@ Route::get('/admin/internal_letters', 'PlatformController@admin_internal_letters
 
 // internal_letters--------------------------------------------------------------------------------
 Route::get('/admin/match_performances/new', 'MatchController@index');
+
+// internal_letters--------------------------------------------------------------------------------
+Route::get('/admin/internal_letters', 'PlatformController@admin_internal_letters_index');

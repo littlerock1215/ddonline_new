@@ -406,6 +406,12 @@
                       </a>
 
           </li>
+          <li>
+            <a class="" href="/admin/internal_letters">
+                <i class="icon_piechart"></i>
+                <span>報表</span>
+            </a>
+          </li>
           <li class="sub-menu">
             <a href="javascript:;" class="">
                           <i class="icon_documents_alt"></i>

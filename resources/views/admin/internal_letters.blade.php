@@ -5,7 +5,7 @@
 <link rel="stylesheet" media="all" href="/assets/admin-a2d9679cd876b77306b69505b283d25f085563d38451d0785e8d72886a9fc0e1.css" />
 
 
-<div class="an-content-body" style="margin-left:180px;width:86%">
+<div class="an-content-body" style="margin-left:180px;width:86%;padding-top: 80px">
     <div class="row">
         <div class="an-body-topbar wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
 <div class="an-page-title">
