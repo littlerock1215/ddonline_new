@@ -7,7 +7,7 @@
 
 
 
-<div class="an-content-body" style="margin-left:180px;width:86%">
+<div class="an-content-body" style="margin-left:180px;width:86%;padding-top:90px">
     <div class="row">
         <div class="an-body-topbar wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
 <div class="an-page-title">
@@ -189,6 +189,12 @@
 </form>                </div>
 </div>
 <div class="table-responsive">
+
+    <div class="dt-buttons">
+        <a class="dt-button btn btn-default datatables_buttons set_period_deadline_btn" tabindex="0" area-controls="tender_documents_datatable" href="#">
+            <span>批次標單取消</span>
+        </a>     
+    </div>
 <table id='tender_documents_datatable' class='table table-bordered table_breaking m-b-10'>
 <input type="hidden" name="tender_documents_force_repayment_early" id="js-force_repayment_early" value="true" />
 <thead>
@@ -206,11 +212,11 @@
 <th class='all'>檢視</th>
 <th class='all'>繳款</th>
 <th class='all'>公司買</th>
-<th class='never'>存入日期</th>
+{{-- <th class='never'>存入日期</th>
 <th class='never'>得標人身份證</th>
 <th class='never'>繳款狀態</th>
 <th class='never'>起息日</th>
-<th class='never'>起息還款日</th>
+<th class='never'>起息還款日</th> --}}
 </tr>
 </thead>
 <tbody>
