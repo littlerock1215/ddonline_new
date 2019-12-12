@@ -43,13 +43,13 @@
 
 
 
-        <form id="data_form">
+        {{-- <form id="data_form">
             
             <input type="hidden" name="id" value="">
             <input type="text" name="content" id="test1" value="">
             <button type="submit" onclick="edit_info(event)">submit</button>
             
-        </form>
+        </form> --}}
 
         
         
@@ -135,9 +135,9 @@
                 </div>
               </div>
           </div>
-          <button id="export_button" class="btn btn-success">
+          {{-- <button id="export_button" class="btn btn-success">
             匯出
-          </button>
+          </button> --}}
         </div>
 
         <a href="{{ route('export') }}" class="btn btn-primary">匯出資料</a>
