@@ -157,6 +157,10 @@ class PlatformController extends Controller
         return view('admin.tender_documents');
     }
 
+    public function admin_tender_detail_index(){
+        return view('admin.tender_detail');
+    }
+
     public function admin_internal_letters_index(){
         return view('admin.internal_letters');
     }

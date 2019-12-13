@@ -9920,3 +9920,9 @@ span.customSelect.changed {
     width: 80%!important;
     display: inline-block!important;
 }
+
+span.riew_content{
+    background: url(../images/addhover.png) no-repeat;
+    background-size: 13.5px 13.5px;
+    background-position: 0 0px;
+}

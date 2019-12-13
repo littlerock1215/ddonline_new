@@ -56,6 +56,7 @@ Route::get('/admin/role_permissions',function(){ return view('roles.role_permiss
 
 // tender_documents--------------------------------------------------------------------------------
 Route::get('/admin/tender_documents', 'PlatformController@admin_tender_documents_index');
+Route::get('/admin/tender_detail', 'PlatformController@admin_tender_detail_index');
 
 // internal_letters--------------------------------------------------------------------------------
 Route::get('/admin/internal_letters', 'PlatformController@admin_internal_letters_index');
@@ -63,3 +64,17 @@ Route::get('/admin/internal_letters', 'PlatformController@admin_internal_letters
 // internal_letters--------------------------------------------------------------------------------
 Route::get('/admin/match_performances/new', 'MatchController@index');
 Route::post('/admin/match_performances/new', 'MatchController@update_submit');
+
+// internal_letters--------------------------------------------------------------------------------
+Route::get('/admin/internal_letters', 'PlatformController@admin_internal_letters_index');
+
+// roi_settings--------------------------------------------------------------------------------
+Route::get('/admin/roi_settings', 'SettingController@index');
+
+// users/staff--------------------------------------------------------------------------------
+Route::get('/admin/users', 'AdminUsersController@index');
+Route::get('/admin/staffs', 'AdminStaffsController@index');
+
+// web_category--------------------------------------------------------------------------------
+Route::get('/admin/web_contents/web_category', 'CategoryController@index');
+
