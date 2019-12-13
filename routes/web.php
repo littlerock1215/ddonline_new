@@ -63,6 +63,7 @@ Route::get('/admin/internal_letters', 'PlatformController@admin_internal_letters
 
 // internal_letters--------------------------------------------------------------------------------
 Route::get('/admin/match_performances/new', 'MatchController@index');
+Route::post('/admin/match_performances/new', 'MatchController@update_submit');
 
 // internal_letters--------------------------------------------------------------------------------
 Route::get('/admin/internal_letters', 'PlatformController@admin_internal_letters_index');
@@ -76,3 +77,4 @@ Route::get('/admin/staffs', 'AdminStaffsController@index');
 
 // web_category--------------------------------------------------------------------------------
 Route::get('/admin/web_contents/web_category', 'CategoryController@index');
+
