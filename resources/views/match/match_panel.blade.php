@@ -84,7 +84,7 @@
 <script>
 
     function update_item(){
-            if($("#new_match_performance").valid()){
+            
                     $.ajax({
                     type:"POST",
                     url:"/admin/match_performances/new",
@@ -101,7 +101,7 @@
                 });
             }
             
-        }
+        
     
         
         
