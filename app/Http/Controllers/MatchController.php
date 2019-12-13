@@ -36,10 +36,6 @@ class MatchController extends Controller
                 continue;
             }
         }
-
-        // $result['annualBenefitsRate'] = Match::where('value_name','=','annualBenefitsRate')->first()->value;
-        // $result['memberBenefits'] = Match::where('value_name','=','memberBenefits')->first()->value;
-        // $result['totalInvestAmount'] = Match::where('value_name','=','totalInvestAmount')->first()->value;
         return view('match.match_panel',$result);   
     }
 

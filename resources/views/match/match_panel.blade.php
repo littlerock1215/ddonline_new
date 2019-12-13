@@ -81,30 +81,30 @@
 
   </section>
   <!-- container section end -->
-  <script>
+<script>
 
-function update_item(){
-        if($("#new_match_performance").valid()){
-                $.ajax({
-                type:"POST",
-                url:"/admin/match_performances/new",
-                dataType:"json",
-                data:
-                    $('#new_match_performance').serialize()
-                ,
-                success:function(data){
-                    if(data.success){
-                        alert("更新成功");
-                        location.href='/admin/match_performances/new';
+    function update_item(){
+            if($("#new_match_performance").valid()){
+                    $.ajax({
+                    type:"POST",
+                    url:"/admin/match_performances/new",
+                    dataType:"json",
+                    data:
+                        $('#new_match_performance').serialize()
+                    ,
+                    success:function(data){
+                        if(data.success){
+                            alert("更新成功");
+                            location.href='/admin/match_performances/new';
+                        }
                     }
-                }
-            });
+                });
+            }
+            
         }
+    
         
-    }
-   
-       
-    }
+        
 
     
 </script>
