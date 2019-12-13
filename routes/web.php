@@ -66,3 +66,13 @@ Route::get('/admin/match_performances/new', 'MatchController@index');
 
 // internal_letters--------------------------------------------------------------------------------
 Route::get('/admin/internal_letters', 'PlatformController@admin_internal_letters_index');
+
+// roi_settings--------------------------------------------------------------------------------
+Route::get('/admin/roi_settings', 'SettingController@index');
+
+// users/staff--------------------------------------------------------------------------------
+Route::get('/admin/users', 'AdminUsersController@index');
+Route::get('/admin/staffs', 'AdminStaffsController@index');
+
+// web_category--------------------------------------------------------------------------------
+Route::get('/admin/web_contents/web_category', 'CategoryController@index');

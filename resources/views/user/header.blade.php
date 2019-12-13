@@ -330,7 +330,7 @@
         <!-- sidebar menu start-->
         <ul class="sidebar-menu">
           <li class="">
-            <a class="" href="index.html">
+            <a class="" href="/admin/roi_settings">
                           <i class="icon_house_alt"></i>
                           <span>智能媒合設定</span>
                       </a>
@@ -342,8 +342,8 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
             <ul class="sub">
-              <li><a class="" href="form_component.html">管理會員</a></li>
-              <li><a class="" href="form_validation.html">管理員工</a></li>
+              <li><a class="" href="/admin/users">管理會員</a></li>
+              <li><a class="" href="/admin/staffs">管理員工</a></li>
             </ul>
           </li>
           {{-- <li class="sub-menu">
@@ -359,7 +359,7 @@
             </ul>
           </li> --}}
           <li>
-            <a class="" href="widgets.html">
+            <a class="" href="/admin/web_contents/web_category">
                           <i class="icon_genius"></i>
                           <span>編輯前台資料</span>
                       </a>
