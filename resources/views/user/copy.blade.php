@@ -705,13 +705,13 @@
   </section>
   <!-- container section end -->
   <!-- javascripts -->
-  <script src="/NiceAdmin/js/jquery.js"></script>
+  {{-- <script src="/NiceAdmin/js/jquery.js"></script> --}}
   <script src="/NiceAdmin/js/bootstrap.min.js"></script>
   <!-- nicescroll -->
   <script src="/NiceAdmin/js/jquery.scrollTo.min.js"></script>
   <script src="/NiceAdmin/js/jquery.nicescroll.js" type="text/javascript"></script>
   <!--custome script for all page-->
-  <script src="/NiceAdmin/js/scripts.js"></script>
+  {{-- <script src="/NiceAdmin/js/scripts.js"></script> --}}
 
 
 </body>

@@ -35,6 +35,8 @@
   <link href="/NiceAdmin/css/style.css" rel="stylesheet">
   <link href="/NiceAdmin/css/style-responsive.css" rel="stylesheet" />
 
+  <script src="/js/jquery-3.3.1.min.js"></script>
+
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
   <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
