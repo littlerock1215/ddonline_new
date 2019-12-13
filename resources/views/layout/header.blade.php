@@ -176,14 +176,15 @@
       <div class="nav2">
         <main>
           <div class="btn-group" style="width:220px;">
-            <button type="button" class="btn btn-primary dropdown-toggle h60" 
+            <a href="/admin">後台</a>
+            {{-- <button type="button" class="btn btn-primary dropdown-toggle h60" 
               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" 
               style="background: #00C1DE;border-radius: 0px; font-size: 14px;border-color: #00C1DE; width:100%">
               <img src="../images/vip.png" alt="" class="member">
                 會員登入 / 註冊
-            </button>
-              <!-- 未登入狀態 -->
-              <div class="dropdown-menu" style="border-radius: 0px; width: 300px;margin: 0; font-size: 14px; ">
+            </button> --}}
+              <!-- 未登入狀態 登入先拿掉-->
+              <div class="dropdown-menu" style="display:none;border-radius: 0px; width: 300px;margin: 0; font-size: 14px; ">
                   {{-- <form class="simple_form login-panel" novalidate="novalidate" id="new_user" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="Lyhvf8B1MaXawXvpLrusqTL17pZ9tp9o5sKVvksE4YIST7nTqzKinvjnVrkyblTy0Ue6ZKa/JmAbYlarFQ4+ug==" />
                     <div class="px-4 py-3">
                       <div class="form-group">
@@ -219,7 +220,7 @@
                     </div>
                   </form> --}}
 
-                  <form class="p-4 simple_form login-panel" id="page-signup-form" role="form" method="POST" action="{{ url('/login') }}">
+                  {{-- <form class="p-4 simple_form login-panel" id="page-signup-form" role="form" method="POST" action="{{ url('/login') }}">
                     {{ csrf_field() }}
                     <h4 class="m-t-0 m-b-4 text-xs-center font-weight-semibold">登入系統</h4>
             
@@ -244,7 +245,7 @@
                     </fieldset>
             
                     <button type="submit" class="btn btn-block btn-lg btn-primary m-t-3">登入</button>
-                </form>
+                </form> --}}
               </div>
               <!-- 未登入狀態 -->
 

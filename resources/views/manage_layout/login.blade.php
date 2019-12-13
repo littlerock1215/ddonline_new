@@ -1,4 +1,4 @@
-@extends('user.header')
+@extends('manage_layout.header')
 
 @section('admin_content')
     <section id="main-content">

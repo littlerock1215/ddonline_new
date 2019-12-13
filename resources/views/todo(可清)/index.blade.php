@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 
 <html xml:lang="zh" lang="zh">
 
@@ -8,7 +8,7 @@
     <meta http-equiv="Content-Style-Type" content="text/css" />
     <meta http-equiv="Content-Script-Type" content="text/javascript" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Tradecoin4u</title>
+    <title>Tradecoin4u</title> --}}
     
     
     {{-- <link type="text/css" rel="stylesheet" href="/stylesheets/home.css?"> --}}
@@ -34,7 +34,7 @@
 </head>
 
 
-{{ csrf_field() }}
+{{-- {{ csrf_field() }}
     
 <script>
   window.Laravel = <?php echo json_encode([
@@ -54,4 +54,4 @@ $(document).ready(function(){
 {{ csrf_field() }}
     <input type="text" placeholder="清輸入" name="title">
     <input type="submit">
-</form>
+</form> --}}

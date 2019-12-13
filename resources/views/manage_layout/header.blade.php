@@ -228,7 +228,7 @@
               <li>
                 <a href="#">See all messages</a>
               </li>
-            </ul>
+              </ul>
           </li> --}}
           <!-- inbox notificatoin end -->
           <!-- alert notification start-->
@@ -302,8 +302,7 @@
               </li> --}}
               <li>
                 {{-- <a href="login.html"><i class="icon_key_alt"></i> Log Out</a> --}}
-                <a class="btn btn-outline-success my-2 my-sm-0" href="{{ url('/logout') }}" onclick="event.preventDefault();
-                  document.getElementById('logout-form').submit();">
+                <a href="/hometest">
                   登出
                 </a>
 

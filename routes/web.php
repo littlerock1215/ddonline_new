@@ -19,6 +19,8 @@ Auth::routes();
 // return view('home');
 // });
 
+// Frontweb--------------------------------------------------------------------------------
+
 Route::get('/hometest', 'FrontwebController@index')->name('landing');
 Route::post('/hometest', 'FrontwebController@update');
 
@@ -33,6 +35,9 @@ Route::get('/claim_category', 'FrontwebController@claim_category_index');
 Route::get('/claim_category_special', 'FrontwebController@claim_category_special');
 
 Route::get('/loan', 'FrontwebController@loan_index');
+
+// Frontweb--------------------------------------------------------------------------------
+
 Route::get('/admin', 'PlatformController@admin_index');
 Route::get('/admin/loans', 'PlatformController@admin_loans_index');
 Route::get('/export', 'PlatformController@export')->name('export');
