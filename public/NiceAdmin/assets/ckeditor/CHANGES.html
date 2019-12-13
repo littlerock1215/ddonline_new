@@ -1,0 +1,62 @@
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <title>CHANGES.md</title>
+      </head>
+      <body>
+        <h1 id="ckeditor-4-changelog">CKEditor 4 Changelog</h1>
+<h2 id="ckeditor-4-0-1">CKEditor 4.0.1</h2>
+<p>Fixed issues:</p>
+<ul>
+<li><a href="http://dev.ckeditor.com/ticket/9655">#9655</a>: Support for IE Quirks Mode in new Moono skin.</li>
+<li>Accessibility issues (mainly on inline editor): <a href="http://dev.ckeditor.com/ticket/9364">#9364</a>, <a href="http://dev.ckeditor.com/ticket/9368">#9368</a>, <a href="http://dev.ckeditor.com/ticket/9369">#9369</a>, <a href="http://dev.ckeditor.com/ticket/9370">#9370</a>, <a href="http://dev.ckeditor.com/ticket/9541">#9541</a>, <a href="http://dev.ckeditor.com/ticket/9543">#9543</a>, <a href="http://dev.ckeditor.com/ticket/9841">#9841</a>, <a href="http://dev.ckeditor.com/ticket/9844">#9844</a>.</li>
+<li>Magic-line:<ul>
+<li><a href="http://dev.ckeditor.com/ticket/9481">#9481</a>: Added accessibility support for Magic-line.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9509">#9509</a>: Added Magic-line support for forms.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9573">#9573</a>: Magic-line doesn&#39;t disappear on <code>mouseout</code> in the specific case.</li>
+</ul>
+</li>
+<li><a href="http://dev.ckeditor.com/ticket/9754">#9754</a>: [Webkit] Cut &amp; paste simple unformatted text generates inline wrapper in Webkits.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9456">#9456</a>: [Chrome] Properly paste bullet list style from MS-Word.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9699">#9699</a>, <a href="http://dev.ckeditor.com/ticket/9758">#9758</a>: Improved selection locking when selecting by dragging.</li>
+<li>Context menu:<ul>
+<li><a href="http://dev.ckeditor.com/ticket/9712">#9712</a>: Context menu open destroys editor focus.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9366">#9366</a>: Context menu should be displayed over floating toolbar.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9706">#9706</a>: Context menu generates JS error in inline mode when editor attached to header element.</li>
+</ul>
+</li>
+<li><a href="http://dev.ckeditor.com/ticket/9800">#9800</a>: Hide float panel when resizing window.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9721">#9721</a>: Padding in content of div based editor puts editing area under bottom UI space.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9528">#9528</a>: Host page&#39;s <code>box-sizing</code> style shouldn&#39;t influence editor UI elements.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9503">#9503</a>: Forms plugin adds context menu listeners only on supported input types. Added support for <code>tel, email, search</code> and <code>url</code> input types.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9769">#9769</a>: Improved floating toolbar positioning in narrow window.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9875">#9875</a>: Table dialog doesn&#39;t populate width correctly.</li>
+<li><a href="http://dev.ckeditor.com/ticket/8675">#8675</a>: Deleting cells in nested table removes outer table cell.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9815">#9815</a>: Can&#39;t edit dialog fields on editor initialized in jQuery UI modal dialog.</li>
+<li><a href="http://dev.ckeditor.com/ticket/8888">#8888</a>: CKEditor dialogs do not show completely in small window.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9360">#9360</a>: [Inline editor] Blocks shown for a div stay permanently even after user exists editing the div.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9531">#9531</a>: [Firefox &amp; Inline editor] Toolbar is lost when closing format combo by clicking on its button.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9553">#9553</a>: Table width incorrectly set when <code>border-width</code> style is specified.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9594">#9594</a>: Cannot tab past CKEditor when it is in read only mode.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9658">#9658</a>: [IE9] Justify not working on selected image.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9686">#9686</a>: Added missing contents styles for <code>&lt;pre&gt;</code>.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9709">#9709</a>: PasteFromWord should not depend on configuration from other styles.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9726">#9726</a>: Removed color dialog dependency from table tools.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9765">#9765</a>: Toolbar Collapse command documented incorrectly on Accessibility Instructions dialog.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9771">#9771</a>: [Webkit &amp; Opera] Fixed scrolling issues when pasting.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9787">#9787</a>: [IE9] onChange isn&#39;t fired for checkboxes in dialogs.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9842">#9842</a>: [Firefox 17] When we open toolbar menu for the first time &amp; press down arrow key, focus goes to next toolbar button instead of menu options.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9847">#9847</a>: Elements path shouldn&#39;t be initialized on inline editor.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9853">#9853</a>: <code>Editor#addRemoveFormatFilter</code> is exposed before it really works.</li>
+<li><a href="http://dev.ckeditor.com/ticket/8893">#8893</a>: Value of <code>pasteFromWordCleanupFile</code> config is now taken from instance configuration.</li>
+<li><a href="http://dev.ckeditor.com/ticket/9693">#9693</a>: Removed &quot;live preview&quot; checkbox from UI color picker.</li>
+</ul>
+<h2 id="ckeditor-4-0">CKEditor 4.0</h2>
+<p>The first stable release of the new CKEditor 4 code line.</p>
+<p>The CKEditor JavaScript API has been kept compatible with CKEditor 4, whenever
+possible. The list of relevant changes can be found in the [API Changes page of
+the CKEditor 4 documentation][1].</p>
+<p>[1]: <a href="http://docs.ckeditor.com/#!/guide/dev_api_changes">http://docs.ckeditor.com/#!/guide/dev_api_changes</a> &quot;API Changes&quot;&quot;</p>
+
+      </body>
+    </html>
