@@ -20,7 +20,7 @@
                 </div>
             <div class="panel-body">
                 <form novalidate="novalidate" class="simple_form new_match_performance" id="new_match_performance" enctype="multipart/form-data" action="/admin/match_performances" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="vb/d2Zqgrik1mfI3GWN1GDyUdlQxPmn0qhBggwP3VccaAeDilJQJ2jcHSaJ0cpQceYZuXux4LghkaPDsg7nJDA==" />
-                    
+                    @csrf
                     <div class="advantage_wrapper">
                     <div class="advantage_area">
                         <div class="advantage_row clearAfter col-xs-12 m-b-15 no-padding">
@@ -31,8 +31,9 @@
                                 會員收益
                             </div>
                             <div class="advantage_block_content">
-                                <input class="numeric integer required form-control width_eighty" value="4652280" type="number" step="1" name="match_performance[user_income]" id="match_performance_user_income" />元
                                 
+                            <input class="numeric integer required form-control width_eighty" value='{{$memberBenefits}}' type="number" step="1" name="memberBenefits" id="memberBenefits" />元
+                               
                             </div>
                             </div>
                         </div>
@@ -43,7 +44,7 @@
                                 投資總額
                             </div>
                             <div class="advantage_block_content">
-                                <input class="numeric integer required form-control width_eighty" value="55329000" type="number" step="1" name="match_performance[invest_amount]" id="match_performance_invest_amount" />元
+                                <input class="numeric integer required form-control width_eighty" value='{{$totalInvestAmount}}' type="number" step="1" name="totalInvestAmount" id="totalInvestAmount" />元
                             </div>
                             </div>
                         </div>
@@ -54,15 +55,16 @@
                                 年平均報酬
                             </div>
                             <div class="advantage_block_content">
-                                <input class="numeric float required form-control width_eighty" value="8.16" type="number" step="any" name="match_performance[annual_avg]" id="match_performance_annual_avg" /> %
-                                
+                                <input class="numeric float required form-control width_eighty" value='{{$annualBenefitsRate}}' type="number" step="any" name="annualBenefitsRate" id="annualBenefitsRate" /> %
+                          
                             </div>
                             </div>
                         </div>
                         </div>
                         <div class="col-sm-12">
                         <a class="an-btn an-btn-default pull-right" href="/admin/match_performances">返回</a>
-                        <input type="submit" name="commit" value="儲存" class="an-btn an-btn-primary pull-right m-r-5" data-disable-with="儲存" />
+                        <button type="button" onclick="update_item();" class="an-btn an-btn-primary pull-right m-r-5">儲存</button>
+                        
                         </div>
                     
                     </div>
@@ -79,6 +81,32 @@
 
   </section>
   <!-- container section end -->
+  <script>
 
+function update_item(){
+        if($("#new_match_performance").valid()){
+                $.ajax({
+                type:"POST",
+                url:"/admin/match_performances/new",
+                dataType:"json",
+                data:
+                    $('#new_match_performance').serialize()
+                ,
+                success:function(data){
+                    if(data.success){
+                        alert("更新成功");
+                        location.href='/admin/match_performances/new';
+                    }
+                }
+            });
+        }
+        
+    }
+   
+       
+    }
+
+    
+</script>
 
   @endsection             

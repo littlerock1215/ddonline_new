@@ -48,6 +48,7 @@
 <script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
 
+    <script src="/js/jquery-3.3.1.min.js"></script>
 <script src="/banner/js/slides.jquery.js"></script>
 <script src="/banner/js/main.js"></script>
 <script src="/js/goodpopup.min.js"></script>
