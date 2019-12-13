@@ -158,7 +158,7 @@
                     <th><i class="icon_star_alt"></i> 貸款種類</th>
                     <th><i class="icon_cogs"></i> 金額</th>
                     <th><i class="icon_cogs"></i> 期數</th>
-                    <th><i class="icon_cogs"></i> 已聯繫</th>
+                    {{-- <th><i class="icon_cogs"></i> 已聯繫</th> --}}
                     <th><i class="icon_cogs"></i> 備註</th>
                     <th><i class="icon_cogs"></i> 操作</th>
                   </tr>
@@ -184,9 +184,9 @@
                     <td>個人信用貸款</td>
                     <td>100,000</td>
                     <td>24</td>
-                    <td>
+                    {{-- <td>
                       <input type="checkbox" class="isContact" {{ $check }}>
-                    </td>
+                    </td> --}}
                     <td>{{ $row->remark }}</td>
                     <td>
                       <div class="btn-group">
