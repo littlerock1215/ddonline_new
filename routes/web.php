@@ -66,7 +66,7 @@ Route::get('/admin/tender_detail', 'PlatformController@admin_tender_detail_index
 // internal_letters--------------------------------------------------------------------------------
 Route::get('/admin/internal_letters', 'PlatformController@admin_internal_letters_index');
 
-// internal_letters--------------------------------------------------------------------------------
+// match_performances--------------------------------------------------------------------------------
 Route::get('/admin/match_performances/new', 'MatchController@index');
 Route::post('/admin/match_performances/new', 'MatchController@update_submit');
 
