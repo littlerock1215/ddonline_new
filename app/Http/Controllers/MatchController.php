@@ -13,6 +13,8 @@ class MatchController extends Controller
     // {
     //     $this->middleware('auth');
     // }
+
+    private $items = array('annualBenefitsRate','memberBenefits','totalInvestAmount');
     
     public function index()
     {
@@ -41,28 +43,18 @@ class MatchController extends Controller
 
 
 
-    public function update_submit(Request $request, Match $match)
+    public function update_submit(Request $request)
     {
         
-        $datas = [];
-        $result = array();
-        foreach($datas as $data)
-        {
-            if($data->value_name == 'annualBenefitsRate')
-            {
-                $result['annualBenefitsRate'] = $data->value;
-                continue;
-            }
-            else if($data->value_name == 'memberBenefits')
-            {
-                $result['memberBenefits'] = $data->value;
-                continue;
-            }
-            else if ($data->value_name == 'totalInvestAmount')
-            {
-                $result['totalInvestAmount'] = $data->value;
-                continue;
-            }
+        foreach($this->items as $item){
+            $value = $request->input($item);
+
+            $match = Match::where('value_name',$item)->first();
+
+            $match->value = $value;
+            $match->save();
+            // $update_data['value'] = $value;
+            // DB::table('data_value')->where('value_name',$item)->update($update_data);
         }
 
         return response()->json([
